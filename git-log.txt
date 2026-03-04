@@ -1,0 +1,14 @@
+8ddbf65 Merge pull request #1 from KulenImArsch/feature/add-kursnip-project
+1831a8d Initial commit - master branch
+21d0e35 Add README.md: dokumentacja projektu, instrukcja uruchomienia i opis funkcjonalnosci
+068eeea Add SettingsPanel.cs: zakladka ustawien konta, hasla, 2FA i konfiguracji SMTP
+d110a15 Add NipPanel.cs: zakladka weryfikacji NIP przez Biala Liste MF z historia zapytan
+80f9f72 Add ExchangeRatePanel.cs: zakladka kursow walut NBP z historia zapytan
+c731aef Add MainForm.cs: glowne okno aplikacji z paskiem naglowka i kontrolka zakladek
+abd0aa7 Add RegisterAndTwoFAForms.cs: formularz rejestracji nowego konta oraz weryfikacja kodu 2FA
+1465e62 Add LoginForm.cs: formularz logowania uzytkownika z obsluga weryfikacji dwuetapowej
+ce33909 Add EmailService.cs: wysylanie kodow 2FA przez SMTP oraz konfiguracja aplikacji
+48ddd7b Add ApiServices.cs: serwisy HTTP do NBP (kursy walut) i MF Biala Lista (weryfikacja NIP)
+ef1925d Add Database.cs: warstwa dostepu do danych SQLite, uzytkownicy, historia zapytan, kody 2FA
+29f7d58 Add Program.cs: punkt wejscia aplikacji, inicjalizacja bazy danych i logowania
+c0188ac Add project file: definicja projektu .NET 8 WinForms, pakiety NuGet (SQLite, Json)
